@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100..800&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(24, 17, 17);
+    background-image: url(../imagens/fundo\ 2.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.site {
+    position: relative;
+    width: 1000px;
+    height: auto;
+    margin: auto;
+}
+
+.topo {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    background-color: rgba(24, 17, 17, 0);
+
+}
+
+.logo {
+    position: relative;
+    margin: 1;
+    height: 216px;
+    width: 170px;
+}
+
+.menu {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background-color: #121212
+}
+
+.menu ul {
+    display: flex;
+    /* OCULTAR BOLINHAS DO MENU */
+    list-style: none;
+    /* RETIRAR O ESPAÇAMENTO DAS BOLINHAS */
+    padding: 0;
+}
+
+.menu ul li {
+    float: left;
+    padding: 17px 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+
+}
+
+.menu ul li a {
+    color: inherit;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+/* HOVER: efeito de passar o mouse e ficar com corzinha */
+.menu ul li a:hover {
+    color: rgb(0, 153, 255);
+
+}
+
+.banner {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    background: url(../imagens/banner.jpg) center;
+    background-size: cover;
+    display: flex;
+    justify-content: right;
+    align-items: last baseline;
+    color: aliceblue;
+
+
+}
+
+.banner h1 {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin: 0;
+    
+}
+.fundo-banner {
+    background-color: #bb772ad3;
+    padding: 15px;
+    box-sizing: border-box;
+    width:40%;
+    margin-bottom: 30px;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 268px;
+    height: 62px;
+    background-image: url(../imagens/border.png);
+    color: #121212;
+    font-weight: bold;
+    justify-content: center;
+    cursor: pointer;
+    font-family: inherit !important;
+    
+    
+    
+}
+
+.conteudo {
+    position: relative;
+    width: 100%;
+    height: 350px;
+    /* Duas medidas no margim: eixo vertical e horizontal */
+    margin: 100px 0;
+}
+
+.box {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background-color: rgb(24, 23, 23);
+    float: left;
+    margin-right: 50px;
+    border: 1px #bd792bb4 solid;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: -8px 8px 20px rgb(0, 0, 0);
+    opacity: 75%;
+}
+
+.box:last-child {
+    margin-right: 0;
+    color: aliceblue;
+}
+
+.box img {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.box:hover {
+    bottom: .13rem;
+    top: .05rem;
+    opacity: 100%;
+}
+
+
+.box h2,
+.box p {
+    padding: 0.4 px;
+}
+
+
+.box h2 {
+    color: #bb772ac4;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: small;
+    margin: 1;
+    word-spacing: 1px;
+}
+
+
+.box p {
+    color: aliceblue;
+    font-size: small;
+    margin: 0;
+
+}
+
+.rodape {
+    position: relative;
+    width: 100%;
+    height: 160px;
+    background-color: #121212e7;
+    border-radius: 20px;
+}
+
+.rodape-coluna {
+    position: relative;
+    width: 33%;
+    height: 160px;
+    float: left;
+}
+
+.rodape-coluna ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.rodape-coluna ul li a {
+    color: aliceblue;
+    text-decoration: none;
+    font-family: "Josefin Sans", sans-serif;
+
+}
+
+.lista-rodape li {
+    margin-bottom: 0.25px;
+    margin-top: 25px;
+    margin-left: 30px;
+    font-size: 16px;
+}
+
+.icones-rodape li {
+    float: left;
+    margin-right: 10px;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.icones-rodape li a {
+    padding: 2px 5px;
+    background-color: #121212e7;
+    transition: 0.5s;
+}
+
+.rodape-coluna img {
+    margin-top: 45px;
+
+}
